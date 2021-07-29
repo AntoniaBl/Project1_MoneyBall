@@ -20,7 +20,7 @@ The data cleaning process was done in the following steps:
 2.  Generalize headers names, drop unimportant columns
 3.  Clean specific columns(dealing with null values, clean content, change data types etc.)
 
-### **Machine learning: Predict market value**
+## **Machine learning: Predict market value**
 
 Checking of correlations, removing outliers and boxcox transformation on numerical values
 & encoding of the categorical values lead to a R2 value of the model: 90,8%.
