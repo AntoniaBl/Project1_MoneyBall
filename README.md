@@ -8,6 +8,7 @@ In addition, machine learning techniques are used to predict the market value of
 
 
 ## **Exploring the Data**
+
 The FIFA data (fifa21_male2.csv) was retrieved from Kaggle: https://www.kaggle.com/. 
 The initial dataset contains 17125 rows and 106 columns including player information(name, age, position, club, rating, market value) and skill-related information and scores(e.g. passing, defence, shooting, goal keeping and so on).
 
@@ -19,7 +20,7 @@ The data cleaning process was done in the following steps:
 2.  Generalize headers names, drop unimportant columns
 3.  Clean specific columns(dealing with null values, clean content, change data types etc.)
 
-### Machine learning: Predict market value
+### **Machine learning: Predict market value**
 
 Checking of correlations, removing outliers and boxcox transformation on numerical values
 & encoding of the categorical values lead to a R2 value of the model: 90,8%.
